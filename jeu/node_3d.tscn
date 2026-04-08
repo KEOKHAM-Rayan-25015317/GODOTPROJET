@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://m7n7kichktxy"]
 
-[node name="Node3D" type="Node3D" unique_id=314112395]
+[ext_resource type="PackedScene" uid="uid://l8vmxvjtox8y" path="res://addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_archeryrange_blue.gltf" id="1_a0tk4"]
+[ext_resource type="PackedScene" uid="uid://b043fyyjp2kwd" path="res://addons/kaykit_medieval_hexagon_pack/Assets/gltf/buildings/blue/building_blacksmith_blue.gltf" id="2_r3fl7"]
+[ext_resource type="PackedScene" uid="uid://b3p7sll7ugssx" path="res://addons/kaykit_medieval_hexagon_pack/Assets/gltf/decoration/nature/hills_A_trees.gltf" id="3_jka67"]
+
+[node name="Node3D" type="Node3D" unique_id=261596474]
+
+[node name="building_archeryrange_blue2" parent="." unique_id=344547936 instance=ExtResource("1_a0tk4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.1759818, -0.17093521, -0.6512812)
+
+[node name="building_blacksmith_blue2" parent="." unique_id=2104303592 instance=ExtResource("2_r3fl7")]
+transform = Transform3D(1, -1.6763806e-08, -1.4901161e-08, -1.3038516e-08, 1.0000001, 4.4703484e-08, -1.4901161e-08, -1.4901161e-08, 1, -2.723462, -0.19219625, -0.81243527)
+
+[node name="hills_A_trees2" parent="." unique_id=218906078 instance=ExtResource("3_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.4983015, -0.18994659, -0.3947116)
